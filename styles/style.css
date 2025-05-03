@@ -94,6 +94,7 @@ body {
     padding-top: 70px;
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .hello-container {
@@ -139,10 +140,11 @@ body {
     margin-top: 35px;
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .about-container {
-    padding-top: 115px;
+    /* padding-top: 115px; */
 }
 
 .about-name {
@@ -185,10 +187,11 @@ body {
 .projects {
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .projects-container {
-    margin-top: 150px;
+    /* margin-top: 150px; */
 }
 
 .projects-name {
@@ -203,7 +206,6 @@ body {
 .preview {}
 
 .preview-container {
-    cursor: pointer;
     margin-bottom: 90px;
 }
 
@@ -221,17 +223,19 @@ body {
 
 .preview-container-text {}
 
-.preview-container-text p {
+.preview-container-text h3 {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 30px;
-    letter-spacing: -2px;
+    line-height: 41px;
+    /* letter-spacing: -2px; */
 }
 
 .preview-container__btn {
     background-color: var(--color-white);
     color: var(--color-red);
     cursor: pointer;
+    font-size: 20px;
 }
 
 .norway {}
@@ -251,7 +255,60 @@ body {
     font-size: 30px;
     cursor: pointer;
     width: 100%;
-
 }
+
+.projects-btn__button:hover {
+    color: var(--color-white);
+    background-color: var(--color-red);
+}
+
+/*  */
+.services {
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-black--text);
+}
+.services-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: var(--color-black--text);
+}
+
+.services-name {
+    color: var(--color-white);
+    font-size: 18px;
+    padding-bottom: 34px;
+}
+
+.services-preview {}
+
+.preview {}
+
+.preview-wrapper {
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+.preview-wrapper:last-child {
+    padding-bottom: 0;
+}
+
+.preview-wrapper h3 {
+    color: var(--color-white);
+    font-size: 30px;
+    line-height: 41px;
+    padding-left: 3px;
+    padding-top: 15px;
+}
+
+.preview-img {}
+
+.preview-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+/*  */
 
 /*  */
